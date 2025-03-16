@@ -6,7 +6,14 @@ Create an anonymous inner class implementation of `Animal2` and then call the `m
  */
 
 public class AnonymousInnerClasses {
-    public static void main(String[] args) {
 
+
+    class Animal2 {
+        abstract  public void makeSound();
+    }
+
+    public static void main(String[] args) {
+Animal2 animal2=new Animal2();
+animal2.makeSound();
     }
 }
